@@ -1,1 +1,1 @@
-# newsRecommendation
+# News Recommendation
