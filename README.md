@@ -29,6 +29,7 @@ MINDsmall_train is used for training, and MINDsmall_dev is used for evaluation. 
 
 # News Data
 In general, each line in data file represents information of one piece of news:
+
 [News ID] [Category] [Subcategory] [News Title] [News Abstrct] [News Url] [Entities in News Title] [Entities in News Abstract]
 
 Example:
@@ -37,6 +38,7 @@ N46466 lifestyle lifestyleroyals The Brands Queen Elizabeth, Prince Charles, and
 
 # Behaviors Data
 In general, each line in data file represents one instance of an impression. The format is like:
+
 [Impression ID] [User ID] [Impression Time] [User Click History] [Impression News]
 
 Example: 
@@ -73,6 +75,7 @@ res_syn = model.run_eval(valid_news_file, valid_behaviors_file)
 # Model Metrics
 
 1. MRR
+
 ![1DzpFR1DToUSxBCDKJ4GSNA](https://user-images.githubusercontent.com/71584739/176639669-1043b2d0-8e2a-4df3-ac83-143f25d0f9d8.png)
 
 2. NDCG
