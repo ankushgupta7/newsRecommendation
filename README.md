@@ -118,6 +118,8 @@ We tackle this issue by introducing IDCG (ideal DCG). IDCG is the DCG score fo
 3. NDCG@10: 0.381
 4. NDCG@5: 0.315
 
+<img width="649" alt="image" src="https://user-images.githubusercontent.com/71584739/176644785-f5c29673-9e92-422e-b0e3-8322ba7c92e9.png">
+
 
 
 
