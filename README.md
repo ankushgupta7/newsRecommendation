@@ -3,6 +3,7 @@ Abdus Khan & Ankush Gupta
 
 # Table of Content
 1. Problem Statement
+2. Prerequisite
 3. NRMS Model (Neural News Recommendation with Multi-Head Self-Attention)
 4. Why NRMS?
 5. Data Format
@@ -14,6 +15,16 @@ Abdus Khan & Ankush Gupta
 
 # Problem Statement
 News recommender systems are aimed to personalize users experiences and help them to discover relevant articles from a large and dynamic search space. Therefore, news domain is a challenging scenario for recommendations, due to its sparse user profiling, fast growing number of items, accelerated item’s value decay, and users preferences dynamic shift.
+
+# Prerequisite
+```
+pip install scrapbook
+pip install recommenders
+pip install tensorflow
+pip install zipfile
+pip install tqdm
+pip install tempfile
+```
 
 # NRMS Model
 NRMS is a neural news recommendation approach with multi-head selfattention. The core of NRMS is a news encoder and a user encoder. In the newsencoder, a multi-head self-attentions is used to learn news representations from news titles by modeling the interactions between words. In the user encoder, we learn representations of users from their browsed news and use multihead self-attention to capture the relatedness between the news. Besides, we apply additive attention to learn more informative news and user representations by selecting important words and news.
