@@ -100,6 +100,13 @@ We tackle this issue by introducing IDCG (ideal DCG). IDCG is the DCG score fo
 
 ![NDCG(k)](https://user-images.githubusercontent.com/71584739/176640281-e738edf1-1b4c-4a54-b848-393cca9f3281.png)
 
+# Conclusion
+
+1. AUC: 0.63
+2. Mean MRR: 0.29
+3. NDCG@10: 0.381
+4. NDCG@5: 0.315
+
 
 
 
